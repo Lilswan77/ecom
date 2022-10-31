@@ -10,7 +10,7 @@ root.render(
     <App />
     <link
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Poor Story"
+      href="https://fonts.googleapis.com/css?family=Indie Flower"
     ></link>
   </React.StrictMode>
 );
