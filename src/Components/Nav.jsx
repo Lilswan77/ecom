@@ -1,5 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHippo } from "@fortawesome/free-solid-svg-icons";
+import { motion } from "framer-motion";
 
 export const Nav = () => {
   return (
@@ -22,9 +23,17 @@ export const Nav = () => {
           <p>
             <a href="http://localhost:3000/">Hello World</a>
           </p>
-          <button className="logo">
-            <a href="http://localhost:3000/"><FontAwesomeIcon icon={faHippo} /></a>
-          </button>
+          <motion.div>
+            <motion.button
+              className="logo"
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.9 }}
+            >
+              <a href="http://localhost:3000/">
+                <FontAwesomeIcon icon={faHippo} />
+              </a>
+            </motion.button>
+          </motion.div>
         </div>
       </nav>
       <hr className="underline" />

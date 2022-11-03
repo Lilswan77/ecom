@@ -5,6 +5,7 @@ body {
 nav {
   display: flex;
   justify-content: center;
+  font-family: Poor Story;
 }
 nav a {
   text-decoration: none;
@@ -15,7 +16,7 @@ nav .nav-one {
   display: flex;
 }
 nav .nav-one a {
-  font-size: 20px;
+  font-size: 30px;
 }
 nav .header a {
   padding: 100px;
@@ -27,14 +28,52 @@ nav .nav-two {
   display: flex;
 }
 nav .nav-two a {
-  font-size: 20px;
+  font-size: 30px;
 }
 nav .nav-two .logo {
-  background: #f9eddd;
+  background: #fff;
+  box-shadow: 2px 2px 0 0 #343434;
+  border: 3px solid #343434;
+  border-radius: 5px;
   height: 50px;
-  font-size: 30px;
 }
 
 .underline {
-  margin: auto;
+  border: 1px solid black;
+}
+
+.parent-content {
+  display: flex;
+  margin: 93px;
+  justify-content: center;
+}
+
+.text {
+  max-width: 620px;
+  font-size: 200px;
+  font-family: Poor Story;
+  line-height: 150px;
+  margin: 100px;
+}
+
+.content-box {
+  width: 1161px;
+  height: 648px;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 10px 10px 0 0 #343434;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.cricle {
+  width: 30%;
+  height: 50%;
+  border-radius: 5px;
+  background: black;
+  cursor: -webkit-grab;
+  cursor: grab;
 }/*# sourceMappingURL=index.css.map */

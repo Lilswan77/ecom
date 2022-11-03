@@ -1,5 +1,6 @@
 $body-color: #f9eddd
 $primary-text-color: black
+$secondary-body-color: #fff
 
 body
     background: $body-color
@@ -7,6 +8,7 @@ body
 nav
     display: flex
     justify-content: center
+    font-family: Poor Story
 
     a
         text-decoration: none
@@ -16,7 +18,7 @@ nav
     .nav-one
         display: flex
         a
-            font-size: 20px
+            font-size: 30px
 
     .header
         a
@@ -28,14 +30,47 @@ nav
     .nav-two
         display: flex
         a
-            font-size: 20px
+            font-size: 30px
             
         .logo
-            background: $body-color
+            background: $secondary-body-color
+            box-shadow: 2px 2px 0 0 #343434
+            border: 3px solid #343434
+            border-radius: 5px
             height: 50px
-            font-size: 30px
-
-    
                 
 .underline
-    margin: auto
+    border: 1px solid black
+
+.parent-content
+    display: flex
+    margin: 93px
+    justify-content: center
+  
+.text 
+    max-width: 620px
+    font-size: 200px
+    font-family: Poor Story
+    line-height: 150px
+    margin: 100px
+
+.content-box
+    width: 1161px
+    height: 648px
+    border: 1px solid black
+    border-radius: 10px
+    box-shadow: 10px 10px 0 0 #343434
+    background: white
+    display: flex
+    justify-content: center
+    align-items: center
+    overflow: hidden
+
+.cricle
+    width: 30%
+    height: 50%
+    border-radius: 5px
+    background: black
+    cursor: grab
+
+     

@@ -1,9 +1,11 @@
-import Nav from "./Nav"
+import Nav from "./Components/Nav"
+import Content from "./Components/Content";
 
 export const App = () => {
   return (
     <div>
-      <Nav/>
+      <Nav />
+      <Content/>
     </div>
   )
 }
