@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 
-const Content = () => {
+
+const Home = () => {
   return (
     <div className="parent-content">
       <p className="text">Designing just got easy.</p>
@@ -16,7 +17,7 @@ const Content = () => {
         />
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Content;
+export default Home

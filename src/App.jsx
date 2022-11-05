@@ -1,12 +1,10 @@
-import Nav from "./Components/Nav"
-import Content from "./Components/Content";
-
+import Nav from "./Components/Nav"; 
+  
 export const App = () => {
   return (
     <div>
       <Nav />
-      <Content/>
-    </div>
+  </div>
   )
 }
 
