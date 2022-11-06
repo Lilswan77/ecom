@@ -16,6 +16,10 @@ root.render(
       rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Poor Story"
     ></link>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=DM Sans"
+    ></link>
   </React.StrictMode>
 );
 

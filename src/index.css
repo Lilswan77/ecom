@@ -65,11 +65,71 @@ nav .nav-two .logo {
   overflow: hidden;
 }
 
-.cricle {
-  width: 30%;
-  height: 50%;
+.box {
+  width: 30vh;
+  height: 40vh;
   border-radius: 5px;
   background: black;
   cursor: -webkit-grab;
   cursor: grab;
+}
+
+.Contact-header {
+  text-align: center;
+  font-size: 30px;
+  font-family: DM Sans;
+}
+
+.Content-text {
+  margin: auto;
+  width: 14vw;
+}
+.Content-text h3 {
+  text-align: center;
+}
+.Content-text p {
+  text-align: left;
+  color: #888888;
+}
+
+.About-header {
+  text-align: center;
+  font-size: 30px;
+  font-family: DM Sans;
+}
+
+.About-text {
+  margin: auto;
+  width: 14vw;
+}
+.About-text h3 {
+  text-align: center;
+}
+.FAQ-text p {
+  text-align: left;
+  color: #888888;
+}
+.FAQ-header {
+  text-align: center;
+  font-size: 30px;
+  font-family: DM Sans;
+}
+
+.FAQ-text {
+  margin: auto;
+  width: 14vw;
+}
+.FAQ-text h3 {
+  text-align: center;
+}
+.FAQ-text p {
+  text-align: left;
+  color: #888888;
+}
+
+.Error {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }/*# sourceMappingURL=index.css.map */

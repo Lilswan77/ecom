@@ -6,7 +6,6 @@ import Contact from "./Contact";
 import About from "./About";
 import Home from "./Home";
 import FAQ from "./FAQ";
-import Logo from "./Logo";
 import Error from "./Error";
 
 export const Nav = () => {
@@ -28,7 +27,7 @@ export const Nav = () => {
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.9 }}
             >
-              <Link to="/logo">
+              <Link to="/">
                 <FontAwesomeIcon icon={faHippo} />
               </Link>
             </motion.button>
@@ -40,12 +39,8 @@ export const Nav = () => {
         <Route path="/about" element={<About />} />
         <Route path="/" element={<Home />} />
         <Route path="/faq" element={<FAQ />} />
-        <Route path="/logo" element={<Logo />} />
         <Route path="*" element={<Error />} />
       </Routes>
-      <footer>
-        <h1>Footer</h1>
-      </footer>
     </Router>
   );
 };
